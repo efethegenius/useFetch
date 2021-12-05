@@ -11,7 +11,7 @@ export const useFetch = (url) => {
       setData(data);
       setLoading(false);
     } catch (error) {
-      console.log("Could not fetch countries, check network");
+      console.log("Could not fetch, check network");
     }
   }, [url]);
 
